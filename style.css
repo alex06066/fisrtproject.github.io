@@ -1,0 +1,76 @@
+html {
+    font-family: 'Oswald';
+}
+
+header h1 {
+    align-items: center;
+    padding: 1rem;
+    width: 400px;
+    margin: auto;
+    color: rgb(27, 26, 26);
+}
+
+.presentacion {
+    text-align: center;
+}
+
+body {
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0.25rem;
+    background-image: url(fondo-pagina.jpg);
+    background-size: contain 100%;
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+
+#container {
+    padding: 1rem;
+    width: 400px;
+    margin: auto;
+    border: 5px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgb(27, 26, 26);
+    background-image: url(fondo-pagina.jpg);
+    background-size: 100%;
+    text-align: center;
+    color: rgb(27, 26, 26);
+}
+
+#input-email {
+    color: black;
+    height: 25px;
+    margin: 3px auto;
+    width: 240px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 7px;
+}
+
+#input-password {
+    height: 25px;
+    margin: 3px auto;
+    width: 240px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 7px;
+}
+
+#button {
+    color: white;
+    height: 30px;
+    border-radius: 7px;
+    /* border: groove; */
+    background-color: rgb(27, 25, 25);
+    margin: auto 0 0 183px;
+}
+
+section a {
+    transition: color 0.4s ease;
+    color: black;
+    text-align: right;
+}
+
+section a:hover {
+    color: aquamarine;
+
+}
